@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">表格布局</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_bt1">第一个按钮</string>
+    <string name="text_bt2">第二个按钮</string>
+    <string name="text_bt3">第三个按钮</string>
+    
+    <string name="text_jsqbt7">7</string>    
+     <string name="text_jsqbt8">8</string>
+     <string name="text_jsqbt9">9</string>        
+     <string name="text_jsqbt79">/</string>        
+     
+</resources>
