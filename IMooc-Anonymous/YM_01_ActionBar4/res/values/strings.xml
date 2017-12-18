@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Actionbar4</string>
+    <string name="Settings">设 置</string>
+    <string name="Load">读 取</string>
+</resources>
