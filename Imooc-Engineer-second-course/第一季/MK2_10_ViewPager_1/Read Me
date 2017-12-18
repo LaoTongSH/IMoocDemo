@@ -1,0 +1,4 @@
+Android 攻城狮的第二门课(第1季)  慕课网
+第10章 使用ViewPager实现导航
+
+本例是本章的第二个例题。在第一个例题的基础上，再引入了PagerTabStrip和PagerTitleStrip控件。都可以放进View中。
