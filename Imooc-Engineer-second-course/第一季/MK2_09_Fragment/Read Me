@@ -1,0 +1,32 @@
+
+O.主程序有四个RadioGroup按钮。
+1.点击1：转向新的Activity2，加载 静态Fragment。在新的Activity
+2.点击2：在当前的Activity，加载动态 Fragment
+3.点击3: 转向Activity3，有一个按钮，点击后反复在MyFragmen3和MyFragmen4之间切换。
+4.点击4：转向Activity4，演示Activity和Fragment之间的通信。
+
+上述1和2,在MK1_08_Fragment 中实现。
+上述3和4,在MK1_09_Fragment 中实现。
+
+A.Src文件：
+MainActivity.java：	主程序；Switch Case 语句处理四个RadioGroup点击。（布局：bottom.xml） | 加载动态MyFragment2.java
+MainActivity2.java：	第一个RadioGroup点击后转向的Activity2；（布局：main2.xml，标签含：MyFragment) | 加载静态MyFragment.java
+MainActivity3.java： 第三个RadioGroup点击后转向的Activity3；（布局：main3.xml) | 加载二个Fragment,MyFragmen3/4.java
+MainActivity4.java： 第四个RadioGroup点击后转向的Activity4；(布局：main4.xml,	| 加载一个MyFragment5.java 并通信。
+
+MyFragment.java：	依附MainActivity2.java的静态Fragment；(把布局：fragment.xml 转换成 View)；
+MyFragment2.java：	依附MainActivity.java的动态 Fragment;(把布局：fragment.xml 转换成 View)；第二个按钮点击后加载！
+MyFragment3.java：	依附MainActivity3.java的 Fragment; (把布局：fragment.xml 转换成 View)；(引用所有的回调方法。)
+MyFragment4.java： 依附MainActivity3.java的 Fragment; (把布局：fragment.xml 转换成 View)；(引用所有的回调方法。)
+MyFragment5.java： 依附MainActivity4.java的Fragment；(把布局：fragment2.xml 转换成 View)
+
+B.Layout文件：
+bottom.xml				主程序之布局，含有四个 RadioGroup 控件。
+main2.xml				含有<fragment>标签的 Activity2之布局。
+main3.xml				配置一个按钮，用于切换 Fragment的 Activity3之布局。
+main4.xml				配置文本框、按钮和<fragment>标签的Activity4之布局。
+
+fragment.xml			MyFragment/2.java之布局，供他们将本布局转换成 View。
+fragment2.xml			MyFragment5.java之布局，供他将本布局转换成 View。 一个用于显示接收信息的文本框。
+
+C.Values文件：
