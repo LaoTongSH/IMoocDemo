@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Settings"/>
+    <item
+        android:id="@+id/menu_load"
+        android:icon="@drawable/navigation"
+        android:orderInCategory="200"
+        android:showAsAction="always"
+        android:title="Load"/>
+    <item
+        android:id="@+id/menu_Write"
+        android:icon="@drawable/navigation"
+        android:orderInCategory="200"
+        android:showAsAction="never"
+        android:title="Write"/>
+    <item
+        android:id="@+id/menu_Print"
+        android:icon="@drawable/navigation"
+        android:orderInCategory="200"
+        android:showAsAction="never"
+        android:title="Print"/>
+
+</menu>
