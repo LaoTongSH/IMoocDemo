@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_settings"
+        android:icon="@drawable/ic_launcher_settings"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/menu_load"
+        android:icon="@drawable/img_5"
+        android:orderInCategory="200"
+        android:showAsAction="always"
+        android:title="@string/action_Load"/>
+    <item
+        android:id="@+id/action_compose"
+        android:icon="@drawable/main_btn"
+        android:showAsAction="never"
+        android:title="compose"/>
+    <item
+        android:id="@+id/action_delete"
+        android:icon="@drawable/ic_03"
+        android:showAsAction="never"
+        android:title="delete"/>
+
+</menu>
